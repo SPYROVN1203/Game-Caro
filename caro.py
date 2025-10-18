@@ -198,11 +198,11 @@ while run:
         screen.blit(x_texture,empty_rect9)
 #In lượt người chơi
     if player == 'p1':
-        xmove = move_font.render("X to move", True,(220,20,60))
+        xmove = move_font.render("X to move", True, 'red')
         xmovet_rect = xmove.get_rect(center = (356,70))
         screen.blit(xmove,xmovet_rect)
     if player == 'p2':
-        omove = move_font.render("O to move", True,(220,20,60))
+        omove = move_font.render("O to move", True, 'blue')
         omovet_rect = omove.get_rect(center = (356,70))
         screen.blit(omove,omovet_rect)
 #Kiểm tra người thắng
